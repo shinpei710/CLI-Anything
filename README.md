@@ -19,7 +19,7 @@ CLI-Anything: Bridging the Gap Between AI Agents and the World's Software</stron
   <a href="#-quick-start"><img src="https://img.shields.io/badge/Quick_Start-5_min-blue?style=for-the-badge" alt="Quick Start"></a>
   <a href="https://hkuds.github.io/CLI-Anything/"><img src="https://img.shields.io/badge/CLI_Hub-Browse_%26_Install-ff69b4?style=for-the-badge" alt="CLI Hub"></a>
   <a href="#-demonstrations"><img src="https://img.shields.io/badge/Demos-18_Apps-green?style=for-the-badge" alt="Demos"></a>
-  <a href="#-test-results"><img src="https://img.shields.io/badge/Tests-2%2C269_Passing-brightgreen?style=for-the-badge" alt="Tests"></a>
+  <a href="#-test-results"><img src="https://img.shields.io/badge/Tests-2%2C461_Passing-brightgreen?style=for-the-badge" alt="Tests"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-yellow?style=for-the-badge" alt="License"></a>
 </p>
 
@@ -959,6 +959,13 @@ Each application received complete, production-ready CLI interfaces — not demo
 <td align="center">✅ <a href="calibre/agent-harness/">58</a></td>
 </tr>
 <tr>
+<td align="center"><strong>📓 <a href="joplin/agent-harness/">Joplin</a></strong></td>
+<td>Note-taking &amp; To-dos</td>
+<td><code>cli-anything-joplin</code></td>
+<td>Joplin terminal CLI subprocess</td>
+<td align="center">✅ 134</td>
+</tr>
+<tr>
 <td align="center"><strong>📝 <a href="mubu/agent-harness/">Mubu</a></strong></td>
 <td>Knowledge Management &amp; Outlining</td>
 <td><code>cli-anything-mubu</code></td>
@@ -1163,11 +1170,11 @@ Each application received complete, production-ready CLI interfaces — not demo
 </tr>
 <tr>
 <td align="center" colspan="4"><strong>Total</strong></td>
-<td align="center"><strong>✅ 2,330</strong></td>
+<td align="center"><strong>✅ 2,461</strong></td>
 </tr>
 </table>
 
-> **100% pass rate** across all 2,330 tests — 1,732 unit tests + 579 end-to-end tests + 19 Node.js tests.
+> **100% pass rate** across all 2,461 tests — 1,732 unit tests + 579 end-to-end tests + 19 Node.js tests.
 
 ---
 
@@ -1212,8 +1219,9 @@ nsight-graphics 51 passed ✅   (46 unit/CLI + 5 local e2e)
 unrealinsights 50 passed  ✅   (49 unit + 1 e2e, 9 backend-gated e2e skipped)
 cloudanalyzer  14 passed  ✅   (7 unit + 7 e2e)
 3mf            50 passed  ✅   (50 unit)
+joplin        134 passed  ✅   (107 unit + 27 e2e, 1 skipped on Windows)
 ──────────────────────────────────────────────────────────────────────────────
-TOTAL        2,330 passed  ✅   100% pass rate
+TOTAL        2,461 passed  ✅   100% pass rate
 ```
 
 ---
@@ -1271,6 +1279,7 @@ cli-anything/
 ├── 📧 mailchimp/agent-harness/          # Mailchimp Marketing API CLI (303 commands, 36 unit tests)
 ├── 📚 zotero/agent-harness/             # Zotero CLI (new, write import support)
 ├── 📖 calibre/agent-harness/            # Calibre CLI (58 tests: 38 unit + 20 E2E)
+├── 📓 joplin/agent-harness/             # Joplin CLI (134 tests: 107 unit + 27 e2e)
 ├── 📝 mubu/agent-harness/               # Mubu CLI (96 tests)
 ├── 📹 obs-studio/agent-harness/         # OBS Studio CLI (153 tests)
 ├── 📱 nslogger/agent-harness/           # NSLogger CLI (139 tests)
